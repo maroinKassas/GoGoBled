@@ -20,7 +20,7 @@ public class PackageAnnouncement {
 
     @Id
     @GeneratedValue
-    private Integer idPackageAnnouncement;
+    private Integer id;
     private String title;
     private String quantity;
     private SenderRecipient senderRecipient;

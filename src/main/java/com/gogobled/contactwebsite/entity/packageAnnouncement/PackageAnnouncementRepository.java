@@ -8,5 +8,5 @@ public interface PackageAnnouncementRepository extends JpaRepository<PackageAnno
 
     PackageAnnouncement findPackageAnnouncementById(final int id);
 
-    void deletePackageAnnouncementBy(final int id);
+    void deletePackageAnnouncementById(final int id);
 }
