@@ -1,0 +1,72 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+# Dossiers générés par Maven
+target/
+bin/
+build/
+classes/
+
+# Fichiers générés par Maven
+pom.xml.tag
+pom.xml.releaseBackup
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Fichiers de configuration spécifiques à l'environnement
+/application.properties
+
+# Fichiers de sortie de compilation des IDEs
+*.class
+*.war
+*.ear
+*.jar
+
+# Fichiers de logs
+log/
+logs/
+
+# Fichiers d'exécution
+*.log
+*.pid
+
+# Fichiers d'archive
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+
+# Dossiers de sauvegarde
+*~
+*.swp
