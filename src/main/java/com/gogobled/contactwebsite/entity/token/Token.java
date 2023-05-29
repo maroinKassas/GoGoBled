@@ -1,4 +1,4 @@
-package com.gogobled.contactwebsite.token;
+package com.gogobled.contactwebsite.entity.token;
 
 import com.gogobled.contactwebsite.entity.user.User;
 import jakarta.persistence.*;

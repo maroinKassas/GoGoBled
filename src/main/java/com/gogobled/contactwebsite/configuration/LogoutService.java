@@ -1,7 +1,7 @@
 package com.gogobled.contactwebsite.configuration;
 
-import com.gogobled.contactwebsite.token.Token;
-import com.gogobled.contactwebsite.token.TokenRepository;
+import com.gogobled.contactwebsite.entity.token.Token;
+import com.gogobled.contactwebsite.entity.token.TokenRepository;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;

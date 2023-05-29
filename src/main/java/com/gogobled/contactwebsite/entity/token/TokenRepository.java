@@ -1,4 +1,4 @@
-package com.gogobled.contactwebsite.token;
+package com.gogobled.contactwebsite.entity.token;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

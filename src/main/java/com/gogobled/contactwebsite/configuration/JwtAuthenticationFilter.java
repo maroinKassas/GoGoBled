@@ -1,6 +1,6 @@
 package com.gogobled.contactwebsite.configuration;
 
-import com.gogobled.contactwebsite.token.TokenRepository;
+import com.gogobled.contactwebsite.entity.token.TokenRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
