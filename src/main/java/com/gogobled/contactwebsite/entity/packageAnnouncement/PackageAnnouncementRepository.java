@@ -6,7 +6,7 @@ import java.util.Optional;
 
 public interface PackageAnnouncementRepository extends JpaRepository<PackageAnnouncement, Integer> {
 
-    Optional<PackageAnnouncement> findUserByEmail(final String email);
+    PackageAnnouncement findPackageAnnouncementById(final int id);
 
-    void deleteByEmail(final String email);
+    void deletePackageAnnouncementBy(final int id);
 }
