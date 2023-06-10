@@ -1,4 +1,4 @@
-package com.gogobled.contactwebsite.entity.user;
+package com.gogobled.contactwebsite.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

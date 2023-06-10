@@ -1,26 +1,18 @@
-package com.gogobled.contactwebsite.entity.packageAnnouncement;
+package com.gogobled.contactwebsite.packageAnnouncement;
 
-import com.gogobled.contactwebsite.entity.user.User;
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.LocalDate;
 import java.util.Date;
 
 @Data
 @Builder
-@NoArgsConstructor
 @AllArgsConstructor
-@Entity
-@Table(name = "_package_announcement")
-public class PackageAnnouncement {
+@NoArgsConstructor
+public class PackageAnnouncementRequest {
 
-    @Id
-    @GeneratedValue
-    private Integer id;
     private String title;
     private String quantity;
     private SenderRecipient senderRecipient;
@@ -31,9 +23,4 @@ public class PackageAnnouncement {
     private int price;
     private Date deliveryStartDate;
     private Date deliveryEndDate;
-    private Date termination;
-    private Date cancelation;
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "user_id")
-    private User user;
 }

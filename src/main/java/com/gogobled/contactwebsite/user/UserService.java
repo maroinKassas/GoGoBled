@@ -1,6 +1,6 @@
-package com.gogobled.contactwebsite.service;
+package com.gogobled.contactwebsite.user;
 
-import com.gogobled.contactwebsite.entity.user.UserRepository;
+import com.gogobled.contactwebsite.user.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

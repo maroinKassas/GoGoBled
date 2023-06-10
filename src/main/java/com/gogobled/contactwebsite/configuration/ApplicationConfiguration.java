@@ -1,6 +1,6 @@
 package com.gogobled.contactwebsite.configuration;
 
-import com.gogobled.contactwebsite.entity.user.UserRepository;
+import com.gogobled.contactwebsite.user.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

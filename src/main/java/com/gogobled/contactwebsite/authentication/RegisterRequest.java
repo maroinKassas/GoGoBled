@@ -1,6 +1,6 @@
 package com.gogobled.contactwebsite.authentication;
 
-import com.gogobled.contactwebsite.entity.user.Role;
+import com.gogobled.contactwebsite.user.Role;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

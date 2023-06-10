@@ -1,4 +1,4 @@
-package com.gogobled.contactwebsite.entity.user;
+package com.gogobled.contactwebsite.user;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

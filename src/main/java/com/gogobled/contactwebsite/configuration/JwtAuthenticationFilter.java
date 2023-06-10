@@ -1,6 +1,6 @@
 package com.gogobled.contactwebsite.configuration;
 
-import com.gogobled.contactwebsite.entity.token.TokenRepository;
+import com.gogobled.contactwebsite.token.TokenRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -28,7 +28,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
     @Override
     protected void doFilterInternal(@NonNull final HttpServletRequest request, @NonNull final HttpServletResponse response, @NonNull final FilterChain filterChain) throws ServletException, IOException {
-        if (request.getServletPath().contains("/auth")) {
+        if (request.getServletPath().contains("/authentication")) {
             filterChain.doFilter(request, response);
             return;
         }

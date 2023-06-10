@@ -1,12 +1,12 @@
-package com.gogobled.contactwebsite.entity.user;
+package com.gogobled.contactwebsite.user;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 import java.util.Set;
 
-import static com.gogobled.contactwebsite.entity.user.Permission.PROFESSIONALS;
-import static com.gogobled.contactwebsite.entity.user.Permission.USER;
+import static com.gogobled.contactwebsite.user.Permission.PROFESSIONALS;
+import static com.gogobled.contactwebsite.user.Permission.USER;
 
 @RequiredArgsConstructor
 public enum TypeUser {

@@ -2,11 +2,11 @@ package com.gogobled.contactwebsite.authentication;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.gogobled.contactwebsite.configuration.JwtService;
-import com.gogobled.contactwebsite.entity.user.User;
-import com.gogobled.contactwebsite.entity.user.UserRepository;
-import com.gogobled.contactwebsite.entity.token.Token;
-import com.gogobled.contactwebsite.entity.token.TokenRepository;
-import com.gogobled.contactwebsite.entity.token.TokenType;
+import com.gogobled.contactwebsite.user.User;
+import com.gogobled.contactwebsite.user.UserRepository;
+import com.gogobled.contactwebsite.token.Token;
+import com.gogobled.contactwebsite.token.TokenRepository;
+import com.gogobled.contactwebsite.token.TokenType;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;

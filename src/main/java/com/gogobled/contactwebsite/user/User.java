@@ -1,6 +1,6 @@
-package com.gogobled.contactwebsite.entity.user;
+package com.gogobled.contactwebsite.user;
 
-import com.gogobled.contactwebsite.entity.token.Token;
+import com.gogobled.contactwebsite.token.Token;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
